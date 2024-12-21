@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>investiTweet</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<div class='col-lg-12 head'>
+                <div class='col-lg-6' style = 'text-align: left'>investiTweet Dashboard</div>
+                        
+                <div class='col-lg-6 search'>
+                        <input type="text" placeholder="Search.." name="search" id = "words" autocomplete = "off">
+                        <button id = "submit"><i class="fa fa-search"></i></button></div>
+        </div>
+	<div class='col-lg-6'>
+		<div class="col-lg-3 chart"  id="barChartLoc" >
+                        <!-- <p>Classification wrt time</p> -->             
+           </div>
+	</div>
+	<div class='col-lg-6' >
+		<div class="col-lg-3 chart"  id="radarChartLoc" >
+                        <!-- <p>Classification wrt time</p> -->
+                        
+
+            </div>
+	</div>
+	<div class='col-lg-6' >
+		<div class="col-lg-3 chart"  id="lineChartLoc" >
+                    
+                         
+        </div>
+	</div>
+	<div class='col-lg-6' >
+		<div class="col-lg-3 chart"  id="doughnutChartLoc" >
+                        <!-- <p>Classification wrt time</p> -->
+
+            </div>
+	</div>
+	<div class = "load">
+	
+	</div>
+	<div class="loader"></div>
+	
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.min.js'></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		
+        <script src="index.js"></script>
+</body>
+</html>

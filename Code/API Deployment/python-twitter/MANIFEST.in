@@ -1,0 +1,8 @@
+include CHANGES
+include COPYING
+include LICENSE
+include NOTICE
+include *.rst
+include requirements.txt
+prune .DS_Store
+graft doc examples testdata tests
